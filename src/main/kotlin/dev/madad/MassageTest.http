@@ -1,0 +1,14 @@
+GET http://127.0.0.1:8080/massage/1
+
+###
+GET http://127.0.0.1:8080/massage/2
+
+###
+POST http://127.0.0.1:8080/massage
+Content-Type: application/json
+
+{
+  "to": "hr@eureca.ru",
+  "subject": "Тестовое задание",
+  "text": "Возьми меня на работу. Мой email: alexander.laputko@ya.ru"
+}
